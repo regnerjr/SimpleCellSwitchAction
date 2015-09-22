@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52D12A871BB1B11700900790 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D12A861BB1B11700900790 /* AppDelegate.swift */; };
+		52D12A891BB1B11700900790 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D12A881BB1B11700900790 /* ViewController.swift */; };
+		52D12A8C1BB1B11700900790 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D12A8A1BB1B11700900790 /* Main.storyboard */; };
+		52D12A8E1BB1B11700900790 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D12A8D1BB1B11700900790 /* Assets.xcassets */; };
+		52D12A911BB1B11700900790 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D12A8F1BB1B11700900790 /* LaunchScreen.storyboard */; };
+		52D12A9C1BB1B11700900790 /* SimpleCellSwitchActionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D12A9B1BB1B11700900790 /* SimpleCellSwitchActionTests.swift */; };
+		52D12AA71BB1B11800900790 /* SimpleCellSwitchActionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D12AA61BB1B11800900790 /* SimpleCellSwitchActionUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52D12A981BB1B11700900790 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52D12A7B1BB1B11700900790 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52D12A821BB1B11700900790;
+			remoteInfo = SimpleCellSwitchAction;
+		};
+		52D12AA31BB1B11800900790 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52D12A7B1BB1B11700900790 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52D12A821BB1B11700900790;
+			remoteInfo = SimpleCellSwitchAction;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52D12A831BB1B11700900790 /* SimpleCellSwitchAction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCellSwitchAction.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D12A861BB1B11700900790 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52D12A881BB1B11700900790 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52D12A8B1BB1B11700900790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52D12A8D1BB1B11700900790 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52D12A901BB1B11700900790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52D12A921BB1B11700900790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52D12A971BB1B11700900790 /* SimpleCellSwitchActionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleCellSwitchActionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D12A9B1BB1B11700900790 /* SimpleCellSwitchActionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCellSwitchActionTests.swift; sourceTree = "<group>"; };
+		52D12A9D1BB1B11700900790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52D12AA21BB1B11700900790 /* SimpleCellSwitchActionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleCellSwitchActionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D12AA61BB1B11800900790 /* SimpleCellSwitchActionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCellSwitchActionUITests.swift; sourceTree = "<group>"; };
+		52D12AA81BB1B11800900790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52D12A801BB1B11700900790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D12A941BB1B11700900790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D12A9F1BB1B11700900790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52D12A7A1BB1B11700900790 = {
+			isa = PBXGroup;
+			children = (
+				52D12A851BB1B11700900790 /* SimpleCellSwitchAction */,
+				52D12A9A1BB1B11700900790 /* SimpleCellSwitchActionTests */,
+				52D12AA51BB1B11800900790 /* SimpleCellSwitchActionUITests */,
+				52D12A841BB1B11700900790 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52D12A841BB1B11700900790 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52D12A831BB1B11700900790 /* SimpleCellSwitchAction.app */,
+				52D12A971BB1B11700900790 /* SimpleCellSwitchActionTests.xctest */,
+				52D12AA21BB1B11700900790 /* SimpleCellSwitchActionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52D12A851BB1B11700900790 /* SimpleCellSwitchAction */ = {
+			isa = PBXGroup;
+			children = (
+				52D12A861BB1B11700900790 /* AppDelegate.swift */,
+				52D12A881BB1B11700900790 /* ViewController.swift */,
+				52D12A8A1BB1B11700900790 /* Main.storyboard */,
+				52D12A8D1BB1B11700900790 /* Assets.xcassets */,
+				52D12A8F1BB1B11700900790 /* LaunchScreen.storyboard */,
+				52D12A921BB1B11700900790 /* Info.plist */,
+			);
+			path = SimpleCellSwitchAction;
+			sourceTree = "<group>";
+		};
+		52D12A9A1BB1B11700900790 /* SimpleCellSwitchActionTests */ = {
+			isa = PBXGroup;
+			children = (
+				52D12A9B1BB1B11700900790 /* SimpleCellSwitchActionTests.swift */,
+				52D12A9D1BB1B11700900790 /* Info.plist */,
+			);
+			path = SimpleCellSwitchActionTests;
+			sourceTree = "<group>";
+		};
+		52D12AA51BB1B11800900790 /* SimpleCellSwitchActionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52D12AA61BB1B11800900790 /* SimpleCellSwitchActionUITests.swift */,
+				52D12AA81BB1B11800900790 /* Info.plist */,
+			);
+			path = SimpleCellSwitchActionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52D12A821BB1B11700900790 /* SimpleCellSwitchAction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52D12AAB1BB1B11800900790 /* Build configuration list for PBXNativeTarget "SimpleCellSwitchAction" */;
+			buildPhases = (
+				52D12A7F1BB1B11700900790 /* Sources */,
+				52D12A801BB1B11700900790 /* Frameworks */,
+				52D12A811BB1B11700900790 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleCellSwitchAction;
+			productName = SimpleCellSwitchAction;
+			productReference = 52D12A831BB1B11700900790 /* SimpleCellSwitchAction.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52D12A961BB1B11700900790 /* SimpleCellSwitchActionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52D12AAE1BB1B11800900790 /* Build configuration list for PBXNativeTarget "SimpleCellSwitchActionTests" */;
+			buildPhases = (
+				52D12A931BB1B11700900790 /* Sources */,
+				52D12A941BB1B11700900790 /* Frameworks */,
+				52D12A951BB1B11700900790 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52D12A991BB1B11700900790 /* PBXTargetDependency */,
+			);
+			name = SimpleCellSwitchActionTests;
+			productName = SimpleCellSwitchActionTests;
+			productReference = 52D12A971BB1B11700900790 /* SimpleCellSwitchActionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52D12AA11BB1B11700900790 /* SimpleCellSwitchActionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52D12AB11BB1B11800900790 /* Build configuration list for PBXNativeTarget "SimpleCellSwitchActionUITests" */;
+			buildPhases = (
+				52D12A9E1BB1B11700900790 /* Sources */,
+				52D12A9F1BB1B11700900790 /* Frameworks */,
+				52D12AA01BB1B11700900790 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52D12AA41BB1B11800900790 /* PBXTargetDependency */,
+			);
+			name = SimpleCellSwitchActionUITests;
+			productName = SimpleCellSwitchActionUITests;
+			productReference = 52D12AA21BB1B11700900790 /* SimpleCellSwitchActionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52D12A7B1BB1B11700900790 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = johnregner;
+				TargetAttributes = {
+					52D12A821BB1B11700900790 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					52D12A961BB1B11700900790 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 52D12A821BB1B11700900790;
+					};
+					52D12AA11BB1B11700900790 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 52D12A821BB1B11700900790;
+					};
+				};
+			};
+			buildConfigurationList = 52D12A7E1BB1B11700900790 /* Build configuration list for PBXProject "SimpleCellSwitchAction" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52D12A7A1BB1B11700900790;
+			productRefGroup = 52D12A841BB1B11700900790 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52D12A821BB1B11700900790 /* SimpleCellSwitchAction */,
+				52D12A961BB1B11700900790 /* SimpleCellSwitchActionTests */,
+				52D12AA11BB1B11700900790 /* SimpleCellSwitchActionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52D12A811BB1B11700900790 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D12A911BB1B11700900790 /* LaunchScreen.storyboard in Resources */,
+				52D12A8E1BB1B11700900790 /* Assets.xcassets in Resources */,
+				52D12A8C1BB1B11700900790 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D12A951BB1B11700900790 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D12AA01BB1B11700900790 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52D12A7F1BB1B11700900790 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D12A891BB1B11700900790 /* ViewController.swift in Sources */,
+				52D12A871BB1B11700900790 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D12A931BB1B11700900790 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D12A9C1BB1B11700900790 /* SimpleCellSwitchActionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D12A9E1BB1B11700900790 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D12AA71BB1B11800900790 /* SimpleCellSwitchActionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52D12A991BB1B11700900790 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52D12A821BB1B11700900790 /* SimpleCellSwitchAction */;
+			targetProxy = 52D12A981BB1B11700900790 /* PBXContainerItemProxy */;
+		};
+		52D12AA41BB1B11800900790 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52D12A821BB1B11700900790 /* SimpleCellSwitchAction */;
+			targetProxy = 52D12AA31BB1B11800900790 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52D12A8A1BB1B11700900790 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52D12A8B1BB1B11700900790 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52D12A8F1BB1B11700900790 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52D12A901BB1B11700900790 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52D12AA91BB1B11800900790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52D12AAA1BB1B11800900790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52D12AAC1BB1B11800900790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleCellSwitchAction/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnregner.SimpleCellSwitchAction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52D12AAD1BB1B11800900790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleCellSwitchAction/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnregner.SimpleCellSwitchAction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		52D12AAF1BB1B11800900790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimpleCellSwitchActionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnregner.SimpleCellSwitchActionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleCellSwitchAction.app/SimpleCellSwitchAction";
+			};
+			name = Debug;
+		};
+		52D12AB01BB1B11800900790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimpleCellSwitchActionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnregner.SimpleCellSwitchActionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleCellSwitchAction.app/SimpleCellSwitchAction";
+			};
+			name = Release;
+		};
+		52D12AB21BB1B11800900790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SimpleCellSwitchActionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnregner.SimpleCellSwitchActionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SimpleCellSwitchAction;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		52D12AB31BB1B11800900790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SimpleCellSwitchActionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnregner.SimpleCellSwitchActionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SimpleCellSwitchAction;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52D12A7E1BB1B11700900790 /* Build configuration list for PBXProject "SimpleCellSwitchAction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D12AA91BB1B11800900790 /* Debug */,
+				52D12AAA1BB1B11800900790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52D12AAB1BB1B11800900790 /* Build configuration list for PBXNativeTarget "SimpleCellSwitchAction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D12AAC1BB1B11800900790 /* Debug */,
+				52D12AAD1BB1B11800900790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52D12AAE1BB1B11800900790 /* Build configuration list for PBXNativeTarget "SimpleCellSwitchActionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D12AAF1BB1B11800900790 /* Debug */,
+				52D12AB01BB1B11800900790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52D12AB11BB1B11800900790 /* Build configuration list for PBXNativeTarget "SimpleCellSwitchActionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D12AB21BB1B11800900790 /* Debug */,
+				52D12AB31BB1B11800900790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52D12A7B1BB1B11700900790 /* Project object */;
+}
