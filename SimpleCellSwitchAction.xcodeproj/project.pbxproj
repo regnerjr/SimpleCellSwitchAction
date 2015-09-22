@@ -14,6 +14,7 @@
 		52D12A911BB1B11700900790 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D12A8F1BB1B11700900790 /* LaunchScreen.storyboard */; };
 		52D12A9C1BB1B11700900790 /* SimpleCellSwitchActionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D12A9B1BB1B11700900790 /* SimpleCellSwitchActionTests.swift */; };
 		52D12AA71BB1B11800900790 /* SimpleCellSwitchActionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D12AA61BB1B11800900790 /* SimpleCellSwitchActionUITests.swift */; };
+		52D12AB51BB1B5BF00900790 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D12AB41BB1B5BF00900790 /* DetailsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		52D12AA21BB1B11700900790 /* SimpleCellSwitchActionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleCellSwitchActionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D12AA61BB1B11800900790 /* SimpleCellSwitchActionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCellSwitchActionUITests.swift; sourceTree = "<group>"; };
 		52D12AA81BB1B11800900790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52D12AB41BB1B5BF00900790 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				52D12A861BB1B11700900790 /* AppDelegate.swift */,
 				52D12A881BB1B11700900790 /* ViewController.swift */,
 				52D12A8A1BB1B11700900790 /* Main.storyboard */,
+				52D12AB41BB1B5BF00900790 /* DetailsViewController.swift */,
 				52D12A8D1BB1B11700900790 /* Assets.xcassets */,
 				52D12A8F1BB1B11700900790 /* LaunchScreen.storyboard */,
 				52D12A921BB1B11700900790 /* Info.plist */,
@@ -257,6 +260,7 @@
 			files = (
 				52D12A891BB1B11700900790 /* ViewController.swift in Sources */,
 				52D12A871BB1B11700900790 /* AppDelegate.swift in Sources */,
+				52D12AB51BB1B5BF00900790 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
